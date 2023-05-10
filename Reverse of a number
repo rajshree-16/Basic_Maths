@@ -1,0 +1,12 @@
+int main() {
+	// Write your code here
+	int n;
+	cin>>n;
+	int rev=0;
+        while (n > 0) {
+          int N = n % 10;
+		  rev=(rev*10)+N;
+		  n=n/10;
+        }
+	cout<< rev;	
+}
